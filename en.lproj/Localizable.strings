@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  sample_app
+
+  Created by Trisha Chandrasekar on 11/6/2023.
+  
+*/
+
+"trial - Enter question number" = "trial - Enter question number";
+"Change Language" = "Change Language";
+"WFD question type" = "WFD question type";
+"Get answer" = "Get answer";
+

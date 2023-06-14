@@ -14,6 +14,14 @@
 		685F3B732A35764500F0777D /* sample_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F3B722A35764500F0777D /* sample_appTests.swift */; };
 		685F3B7D2A35764500F0777D /* sample_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F3B7C2A35764500F0777D /* sample_appUITests.swift */; };
 		685F3B7F2A35764500F0777D /* sample_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F3B7E2A35764500F0777D /* sample_appUITestsLaunchTests.swift */; };
+		685F3B8E2A3577E600F0777D /* network_manager .swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F3B8D2A3577E600F0777D /* network_manager .swift */; };
+		685F3B902A357BD000F0777D /* myApiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F3B8F2A357BD000F0777D /* myApiViewModel.swift */; };
+		685F3B922A357DF000F0777D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F3B912A357DF000F0777D /* NetworkManager.swift */; };
+		68C75EF92A3969CB009FF572 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68C75EFB2A3969CB009FF572 /* Localizable.strings */; };
+		68C75EFE2A397A8F009FF572 /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C75EFD2A397A8F009FF572 /* LocalizationManager.swift */; };
+		68C75F042A397FDD009FF572 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 68C75F012A397FDD009FF572 /* en.lproj */; };
+		68C75F052A397FDD009FF572 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 68C75F022A397FDD009FF572 /* zh-Hant.lproj */; };
+		68C75F062A397FDD009FF572 /* zh-HK.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 68C75F032A397FDD009FF572 /* zh-HK.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,16 @@
 		685F3B782A35764500F0777D /* sample_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sample_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		685F3B7C2A35764500F0777D /* sample_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_appUITests.swift; sourceTree = "<group>"; };
 		685F3B7E2A35764500F0777D /* sample_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		685F3B8D2A3577E600F0777D /* network_manager .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "network_manager .swift"; sourceTree = "<group>"; };
+		685F3B8F2A357BD000F0777D /* myApiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myApiViewModel.swift; sourceTree = "<group>"; };
+		685F3B912A357DF000F0777D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		68C75EFA2A3969CB009FF572 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		68C75EFC2A396A5D009FF572 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		68C75EFD2A397A8F009FF572 /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		68C75F002A397DB2009FF572 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		68C75F012A397FDD009FF572 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		68C75F022A397FDD009FF572 /* zh-Hant.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hant.lproj"; sourceTree = "<group>"; };
+		68C75F032A397FDD009FF572 /* zh-HK.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-HK.lproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +92,10 @@
 		685F3B552A35764300F0777D = {
 			isa = PBXGroup;
 			children = (
+				68C75F012A397FDD009FF572 /* en.lproj */,
+				68C75F022A397FDD009FF572 /* zh-Hant.lproj */,
+				68C75F032A397FDD009FF572 /* zh-HK.lproj */,
+				68C75EFB2A3969CB009FF572 /* Localizable.strings */,
 				685F3B602A35764300F0777D /* sample_app */,
 				685F3B712A35764500F0777D /* sample_appTests */,
 				685F3B7B2A35764500F0777D /* sample_appUITests */,
@@ -94,8 +116,12 @@
 		685F3B602A35764300F0777D /* sample_app */ = {
 			isa = PBXGroup;
 			children = (
+				685F3B8D2A3577E600F0777D /* network_manager .swift */,
+				685F3B912A357DF000F0777D /* NetworkManager.swift */,
 				685F3B612A35764300F0777D /* sample_appApp.swift */,
 				685F3B632A35764300F0777D /* ContentView.swift */,
+				685F3B8F2A357BD000F0777D /* myApiViewModel.swift */,
+				68C75EFD2A397A8F009FF572 /* LocalizationManager.swift */,
 				685F3B652A35764500F0777D /* Assets.xcassets */,
 				685F3B672A35764500F0777D /* Preview Content */,
 			);
@@ -213,6 +239,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-HK",
+				"zh-Hant",
 			);
 			mainGroup = 685F3B552A35764300F0777D;
 			productRefGroup = 685F3B5F2A35764300F0777D /* Products */;
@@ -231,7 +259,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C75F042A397FDD009FF572 /* en.lproj in Resources */,
 				685F3B692A35764500F0777D /* Preview Assets.xcassets in Resources */,
+				68C75F062A397FDD009FF572 /* zh-HK.lproj in Resources */,
+				68C75EF92A3969CB009FF572 /* Localizable.strings in Resources */,
+				68C75F052A397FDD009FF572 /* zh-Hant.lproj in Resources */,
 				685F3B662A35764500F0777D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +290,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				685F3B642A35764300F0777D /* ContentView.swift in Sources */,
+				685F3B8E2A3577E600F0777D /* network_manager .swift in Sources */,
+				685F3B922A357DF000F0777D /* NetworkManager.swift in Sources */,
 				685F3B622A35764300F0777D /* sample_appApp.swift in Sources */,
+				68C75EFE2A397A8F009FF572 /* LocalizationManager.swift in Sources */,
+				685F3B902A357BD000F0777D /* myApiViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,11 +330,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		68C75EFB2A3969CB009FF572 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68C75EFA2A3969CB009FF572 /* en */,
+				68C75EFC2A396A5D009FF572 /* zh-HK */,
+				68C75F002A397DB2009FF572 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		685F3B802A35764500F0777D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -359,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -414,9 +465,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"sample_app/Preview Content\"";
+				DEVELOPMENT_TEAM = CVDAD78BSG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -431,6 +484,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "z.sample-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,9 +496,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"sample_app/Preview Content\"";
+				DEVELOPMENT_TEAM = CVDAD78BSG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -459,6 +515,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "z.sample-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

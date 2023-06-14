@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  sample_app
+
+  Created by Trisha Chandrasekar on 11/6/2023.
+  
+*/
+
+"trial - Enter question number" = "试验 - 输入问题编号";
+"Change Language" = "更改语言";
+"WFD question type" = "WFD问题类型";
+"Get answer" = "获取答案";
+"Invalid number" = "无效号码";
+"Invalid URL" = "无效网址";
+"Parsing error" = "解析错误";
+"Error: %@ - Unknown" = "错误：%@ - 未知";
+
