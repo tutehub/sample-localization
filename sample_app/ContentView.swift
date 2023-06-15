@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var viewModel = MyAPIViewModel()
+    @ObservedObject var viewModel = ContentViewModel()
     @ObservedObject var localizationManager = LocalizationManager.shared
     
     var body: some View {
@@ -27,6 +27,8 @@ struct ContentView: View {
             
                 Button(action: {
                     viewModel.makeGetRequest()
+                    
+                    
                 }) {
                     Text(localizationManager.localizedString("Get answer"))
                         .font(.headline)

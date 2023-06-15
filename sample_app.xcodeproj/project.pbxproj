@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		685F3B622A35764300F0777D /* sample_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F3B612A35764300F0777D /* sample_appApp.swift */; };
 		685F3B642A35764300F0777D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F3B632A35764300F0777D /* ContentView.swift */; };
 		685F3B662A35764500F0777D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685F3B652A35764500F0777D /* Assets.xcassets */; };
 		685F3B692A35764500F0777D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685F3B682A35764500F0777D /* Preview Assets.xcassets */; };
 		685F3B732A35764500F0777D /* sample_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F3B722A35764500F0777D /* sample_appTests.swift */; };
 		685F3B7D2A35764500F0777D /* sample_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F3B7C2A35764500F0777D /* sample_appUITests.swift */; };
 		685F3B7F2A35764500F0777D /* sample_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F3B7E2A35764500F0777D /* sample_appUITestsLaunchTests.swift */; };
-		685F3B8E2A3577E600F0777D /* network_manager .swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F3B8D2A3577E600F0777D /* network_manager .swift */; };
-		685F3B902A357BD000F0777D /* myApiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F3B8F2A357BD000F0777D /* myApiViewModel.swift */; };
 		685F3B922A357DF000F0777D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F3B912A357DF000F0777D /* NetworkManager.swift */; };
 		68C75EF92A3969CB009FF572 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68C75EFB2A3969CB009FF572 /* Localizable.strings */; };
 		68C75EFE2A397A8F009FF572 /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C75EFD2A397A8F009FF572 /* LocalizationManager.swift */; };
 		68C75F042A397FDD009FF572 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 68C75F012A397FDD009FF572 /* en.lproj */; };
 		68C75F052A397FDD009FF572 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 68C75F022A397FDD009FF572 /* zh-Hant.lproj */; };
 		68C75F062A397FDD009FF572 /* zh-HK.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 68C75F032A397FDD009FF572 /* zh-HK.lproj */; };
+		D6FCC43E2A3B38A800ACF298 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCC43D2A3B38A800ACF298 /* MainApp.swift */; };
+		D6FCC4402A3B38D800ACF298 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCC43F2A3B38D800ACF298 /* ContentViewModel.swift */; };
+		D6FCC4422A3B3B4400ACF298 /* NetworkCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCC4412A3B3B4400ACF298 /* NetworkCombineManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 
 /* Begin PBXFileReference section */
 		685F3B5E2A35764300F0777D /* sample_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		685F3B612A35764300F0777D /* sample_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_appApp.swift; sourceTree = "<group>"; };
 		685F3B632A35764300F0777D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		685F3B652A35764500F0777D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		685F3B682A35764500F0777D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -52,8 +51,6 @@
 		685F3B782A35764500F0777D /* sample_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sample_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		685F3B7C2A35764500F0777D /* sample_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_appUITests.swift; sourceTree = "<group>"; };
 		685F3B7E2A35764500F0777D /* sample_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		685F3B8D2A3577E600F0777D /* network_manager .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "network_manager .swift"; sourceTree = "<group>"; };
-		685F3B8F2A357BD000F0777D /* myApiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myApiViewModel.swift; sourceTree = "<group>"; };
 		685F3B912A357DF000F0777D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		68C75EFA2A3969CB009FF572 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		68C75EFC2A396A5D009FF572 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -62,6 +59,9 @@
 		68C75F012A397FDD009FF572 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
 		68C75F022A397FDD009FF572 /* zh-Hant.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hant.lproj"; sourceTree = "<group>"; };
 		68C75F032A397FDD009FF572 /* zh-HK.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-HK.lproj"; sourceTree = "<group>"; };
+		D6FCC43D2A3B38A800ACF298 /* MainApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
+		D6FCC43F2A3B38D800ACF298 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		D6FCC4412A3B3B4400ACF298 /* NetworkCombineManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCombineManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,13 +116,13 @@
 		685F3B602A35764300F0777D /* sample_app */ = {
 			isa = PBXGroup;
 			children = (
-				685F3B8D2A3577E600F0777D /* network_manager .swift */,
-				685F3B912A357DF000F0777D /* NetworkManager.swift */,
-				685F3B612A35764300F0777D /* sample_appApp.swift */,
-				685F3B632A35764300F0777D /* ContentView.swift */,
-				685F3B8F2A357BD000F0777D /* myApiViewModel.swift */,
-				68C75EFD2A397A8F009FF572 /* LocalizationManager.swift */,
 				685F3B652A35764500F0777D /* Assets.xcassets */,
+				685F3B632A35764300F0777D /* ContentView.swift */,
+				D6FCC43F2A3B38D800ACF298 /* ContentViewModel.swift */,
+				68C75EFD2A397A8F009FF572 /* LocalizationManager.swift */,
+				D6FCC43D2A3B38A800ACF298 /* MainApp.swift */,
+				D6FCC4412A3B3B4400ACF298 /* NetworkCombineManager.swift */,
+				685F3B912A357DF000F0777D /* NetworkManager.swift */,
 				685F3B672A35764500F0777D /* Preview Content */,
 			);
 			path = sample_app;
@@ -290,11 +290,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				685F3B642A35764300F0777D /* ContentView.swift in Sources */,
-				685F3B8E2A3577E600F0777D /* network_manager .swift in Sources */,
 				685F3B922A357DF000F0777D /* NetworkManager.swift in Sources */,
-				685F3B622A35764300F0777D /* sample_appApp.swift in Sources */,
+				D6FCC4402A3B38D800ACF298 /* ContentViewModel.swift in Sources */,
 				68C75EFE2A397A8F009FF572 /* LocalizationManager.swift in Sources */,
-				685F3B902A357BD000F0777D /* myApiViewModel.swift in Sources */,
+				D6FCC4422A3B3B4400ACF298 /* NetworkCombineManager.swift in Sources */,
+				D6FCC43E2A3B38A800ACF298 /* MainApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
