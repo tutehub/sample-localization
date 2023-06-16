@@ -11,7 +11,11 @@ final class LocalizationManager: ObservableObject {
     var languageBundle: Bundle?
     
     init() {
-        switchLanguage()
+        UserDefaults.standard.set("en", forKey: "language")
+        let path = Bundle.main.path(forResource: language(), ofType: "lproj") ?? Bundle.main.path(forResource: "en", ofType: "lproj")!
+        languageBundle = Bundle(path: path)
+        objectWillChange.send()
+
     }
     
     func switchLanguage() {
@@ -22,6 +26,7 @@ final class LocalizationManager: ObservableObject {
             
             // default language is English
             UserDefaults.standard.set("en", forKey: "language")
+
         }
 
         let path = Bundle.main.path(forResource: language(), ofType: "lproj") ?? Bundle.main.path(forResource: "en", ofType: "lproj")!
