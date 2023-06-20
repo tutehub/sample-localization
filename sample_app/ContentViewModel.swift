@@ -6,12 +6,22 @@
 //
 
 import Foundation
-import Network
+import Combine
+
 
 class ContentViewModel: ObservableObject {
     @Published var resultText: String = ""
     @Published var questionNumber: String = ""
 
+    
+    /// Example from Richard
+    @Published var objects: [MyObject] = []
+    @Published var error: Error?
+    private var cancellables = Set<AnyCancellable>()
+    
+    
+    
+    
     func makeGetRequest() {
         guard let questionNumber = Int(questionNumber) else {
             resultText = NSLocalizedString("Invalid number", comment: "")
@@ -24,6 +34,7 @@ class ContentViewModel: ObservableObject {
             return
         }
 
+        
         NetworkManager.shared.getRequest(url: url) { (result) in
             switch result {
             case .success(let data):
@@ -51,5 +62,31 @@ class ContentViewModel: ObservableObject {
             }
         }
         NetworkCombineManager.shared.getRequest()
+        
+        
+        
+        
+        /// Example from Richard
+//        self.error = nil
+//        NetworkCombineManager.shared.fetchObjects()
+//          .receive(on: DispatchQueue.main)
+//          .sink(
+//            receiveCompletion: { completion in
+//                print("shark-receiveCompletion")
+//                switch completion {
+//                    case .failure(let error):
+//                        self.error = error
+//                    case .finished:
+//                        break
+//                }
+//            },
+//            receiveValue: { objects in
+//                print("shark-receiveValue", objects)
+//                self.objects = objects
+//            }
+//          )
+//          .store(in: &cancellables)
     }
+    
+
 }

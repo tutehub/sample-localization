@@ -19,6 +19,7 @@
 		68C75F042A397FDD009FF572 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 68C75F012A397FDD009FF572 /* en.lproj */; };
 		68C75F052A397FDD009FF572 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 68C75F022A397FDD009FF572 /* zh-Hant.lproj */; };
 		68C75F062A397FDD009FF572 /* zh-HK.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 68C75F032A397FDD009FF572 /* zh-HK.lproj */; };
+		D6664A8D2A4050590038993A /* NetworkDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6664A8C2A4050590038993A /* NetworkDTO.swift */; };
 		D6FCC43E2A3B38A800ACF298 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCC43D2A3B38A800ACF298 /* MainApp.swift */; };
 		D6FCC4402A3B38D800ACF298 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCC43F2A3B38D800ACF298 /* ContentViewModel.swift */; };
 		D6FCC4422A3B3B4400ACF298 /* NetworkCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCC4412A3B3B4400ACF298 /* NetworkCombineManager.swift */; };
@@ -59,6 +60,7 @@
 		68C75F012A397FDD009FF572 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
 		68C75F022A397FDD009FF572 /* zh-Hant.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hant.lproj"; sourceTree = "<group>"; };
 		68C75F032A397FDD009FF572 /* zh-HK.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-HK.lproj"; sourceTree = "<group>"; };
+		D6664A8C2A4050590038993A /* NetworkDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDTO.swift; sourceTree = "<group>"; };
 		D6FCC43D2A3B38A800ACF298 /* MainApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
 		D6FCC43F2A3B38D800ACF298 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		D6FCC4412A3B3B4400ACF298 /* NetworkCombineManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCombineManager.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				68C75EFD2A397A8F009FF572 /* LocalizationManager.swift */,
 				D6FCC43D2A3B38A800ACF298 /* MainApp.swift */,
 				D6FCC4412A3B3B4400ACF298 /* NetworkCombineManager.swift */,
+				D6664A8C2A4050590038993A /* NetworkDTO.swift */,
 				685F3B912A357DF000F0777D /* NetworkManager.swift */,
 				685F3B672A35764500F0777D /* Preview Content */,
 			);
@@ -295,6 +298,7 @@
 				68C75EFE2A397A8F009FF572 /* LocalizationManager.swift in Sources */,
 				D6FCC4422A3B3B4400ACF298 /* NetworkCombineManager.swift in Sources */,
 				D6FCC43E2A3B38A800ACF298 /* MainApp.swift in Sources */,
+				D6664A8D2A4050590038993A /* NetworkDTO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,7 +473,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"sample_app/Preview Content\"";
-				DEVELOPMENT_TEAM = CVDAD78BSG;
+				DEVELOPMENT_TEAM = GQBQWK8HPY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -500,7 +504,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"sample_app/Preview Content\"";
-				DEVELOPMENT_TEAM = CVDAD78BSG;
+				DEVELOPMENT_TEAM = GQBQWK8HPY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
