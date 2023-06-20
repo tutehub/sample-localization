@@ -20,10 +20,16 @@
 		68C75F052A397FDD009FF572 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 68C75F022A397FDD009FF572 /* zh-Hant.lproj */; };
 		68C75F062A397FDD009FF572 /* zh-HK.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 68C75F032A397FDD009FF572 /* zh-HK.lproj */; };
 		D6664A8D2A4050590038993A /* NetworkDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6664A8C2A4050590038993A /* NetworkDTO.swift */; };
-		D6E3FFED2A41720F00CB61C3 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = D6E3FFEC2A41720F00CB61C3 /* test.json */; };
+		D6E300012A41756800CB61C3 /* Launch.json in Resources */ = {isa = PBXBuildFile; fileRef = D6E300002A41756800CB61C3 /* Launch.json */; };
+		D6E300032A41785C00CB61C3 /* Review.json in Resources */ = {isa = PBXBuildFile; fileRef = D6E300022A41785C00CB61C3 /* Review.json */; };
+		D6E300052A41787C00CB61C3 /* ReviewDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E300042A41787C00CB61C3 /* ReviewDTO.swift */; };
+		D6E300092A4180D500CB61C3 /* JiJingListQuestionsOneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E300082A4180D500CB61C3 /* JiJingListQuestionsOneModel.swift */; };
 		D6E3FFF02A41725200CB61C3 /* JiJingListQuestionsOneDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3FFEF2A41725200CB61C3 /* JiJingListQuestionsOneDTO.swift */; };
 		D6E3FFF32A41736A00CB61C3 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3FFF22A41736A00CB61C3 /* Meal.swift */; };
 		D6E3FFF82A41739C00CB61C3 /* MealTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3FFF72A41739C00CB61C3 /* MealTest.swift */; };
+		D6E3FFFB2A41750400CB61C3 /* JiJingListQuestionsOneData.json in Resources */ = {isa = PBXBuildFile; fileRef = D6E3FFFA2A41750400CB61C3 /* JiJingListQuestionsOneData.json */; };
+		D6E3FFFD2A41751900CB61C3 /* JSONDecodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3FFFC2A41751900CB61C3 /* JSONDecodeTest.swift */; };
+		D6E3FFFF2A41753C00CB61C3 /* LaunchDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3FFFE2A41753C00CB61C3 /* LaunchDTO.swift */; };
 		D6FCC43E2A3B38A800ACF298 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCC43D2A3B38A800ACF298 /* MainApp.swift */; };
 		D6FCC4402A3B38D800ACF298 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCC43F2A3B38D800ACF298 /* ContentViewModel.swift */; };
 		D6FCC4422A3B3B4400ACF298 /* NetworkCombineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCC4412A3B3B4400ACF298 /* NetworkCombineManager.swift */; };
@@ -65,10 +71,16 @@
 		68C75F022A397FDD009FF572 /* zh-Hant.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hant.lproj"; sourceTree = "<group>"; };
 		68C75F032A397FDD009FF572 /* zh-HK.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-HK.lproj"; sourceTree = "<group>"; };
 		D6664A8C2A4050590038993A /* NetworkDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDTO.swift; sourceTree = "<group>"; };
-		D6E3FFEC2A41720F00CB61C3 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		D6E300002A41756800CB61C3 /* Launch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Launch.json; sourceTree = "<group>"; };
+		D6E300022A41785C00CB61C3 /* Review.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Review.json; sourceTree = "<group>"; };
+		D6E300042A41787C00CB61C3 /* ReviewDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDTO.swift; sourceTree = "<group>"; };
+		D6E300082A4180D500CB61C3 /* JiJingListQuestionsOneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiJingListQuestionsOneModel.swift; sourceTree = "<group>"; };
 		D6E3FFEF2A41725200CB61C3 /* JiJingListQuestionsOneDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiJingListQuestionsOneDTO.swift; sourceTree = "<group>"; };
 		D6E3FFF22A41736A00CB61C3 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		D6E3FFF72A41739C00CB61C3 /* MealTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTest.swift; sourceTree = "<group>"; };
+		D6E3FFFA2A41750400CB61C3 /* JiJingListQuestionsOneData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JiJingListQuestionsOneData.json; sourceTree = "<group>"; };
+		D6E3FFFC2A41751900CB61C3 /* JSONDecodeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecodeTest.swift; sourceTree = "<group>"; };
+		D6E3FFFE2A41753C00CB61C3 /* LaunchDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDTO.swift; sourceTree = "<group>"; };
 		D6FCC43D2A3B38A800ACF298 /* MainApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
 		D6FCC43F2A3B38D800ACF298 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		D6FCC4412A3B3B4400ACF298 /* NetworkCombineManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCombineManager.swift; sourceTree = "<group>"; };
@@ -153,6 +165,7 @@
 		685F3B712A35764500F0777D /* sample_appTests */ = {
 			isa = PBXGroup;
 			children = (
+				D6E3FFF92A4174DB00CB61C3 /* Example-JsonDecode */,
 				D6E3FFF42A41737400CB61C3 /* Example-UnitTest */,
 				685F3B722A35764500F0777D /* sample_appTests.swift */,
 			);
@@ -171,7 +184,9 @@
 		D6E3FFE92A41716900CB61C3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D6E3FFEC2A41720F00CB61C3 /* test.json */,
+				D6E300022A41785C00CB61C3 /* Review.json */,
+				D6E300002A41756800CB61C3 /* Launch.json */,
+				D6E3FFFA2A41750400CB61C3 /* JiJingListQuestionsOneData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -180,6 +195,9 @@
 			isa = PBXGroup;
 			children = (
 				D6E3FFEF2A41725200CB61C3 /* JiJingListQuestionsOneDTO.swift */,
+				D6E300082A4180D500CB61C3 /* JiJingListQuestionsOneModel.swift */,
+				D6E3FFFE2A41753C00CB61C3 /* LaunchDTO.swift */,
+				D6E300042A41787C00CB61C3 /* ReviewDTO.swift */,
 			);
 			path = "Model ";
 			sourceTree = "<group>";
@@ -198,6 +216,14 @@
 				D6E3FFF72A41739C00CB61C3 /* MealTest.swift */,
 			);
 			path = "Example-UnitTest";
+			sourceTree = "<group>";
+		};
+		D6E3FFF92A4174DB00CB61C3 /* Example-JsonDecode */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3FFFC2A41751900CB61C3 /* JSONDecodeTest.swift */,
+			);
+			path = "Example-JsonDecode";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,8 +336,10 @@
 				685F3B692A35764500F0777D /* Preview Assets.xcassets in Resources */,
 				68C75F062A397FDD009FF572 /* zh-HK.lproj in Resources */,
 				68C75EF92A3969CB009FF572 /* Localizable.strings in Resources */,
+				D6E3FFFB2A41750400CB61C3 /* JiJingListQuestionsOneData.json in Resources */,
 				68C75F052A397FDD009FF572 /* zh-Hant.lproj in Resources */,
-				D6E3FFED2A41720F00CB61C3 /* test.json in Resources */,
+				D6E300032A41785C00CB61C3 /* Review.json in Resources */,
+				D6E300012A41756800CB61C3 /* Launch.json in Resources */,
 				685F3B662A35764500F0777D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,14 +366,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				685F3B642A35764300F0777D /* ContentView.swift in Sources */,
+				D6E300052A41787C00CB61C3 /* ReviewDTO.swift in Sources */,
 				685F3B922A357DF000F0777D /* NetworkManager.swift in Sources */,
 				D6FCC4402A3B38D800ACF298 /* ContentViewModel.swift in Sources */,
 				68C75EFE2A397A8F009FF572 /* LocalizationManager.swift in Sources */,
 				D6E3FFF32A41736A00CB61C3 /* Meal.swift in Sources */,
 				D6FCC4422A3B3B4400ACF298 /* NetworkCombineManager.swift in Sources */,
+				D6E3FFFF2A41753C00CB61C3 /* LaunchDTO.swift in Sources */,
 				D6E3FFF02A41725200CB61C3 /* JiJingListQuestionsOneDTO.swift in Sources */,
 				D6FCC43E2A3B38A800ACF298 /* MainApp.swift in Sources */,
 				D6664A8D2A4050590038993A /* NetworkDTO.swift in Sources */,
+				D6E300092A4180D500CB61C3 /* JiJingListQuestionsOneModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E3FFFD2A41751900CB61C3 /* JSONDecodeTest.swift in Sources */,
 				D6E3FFF82A41739C00CB61C3 /* MealTest.swift in Sources */,
 				685F3B732A35764500F0777D /* sample_appTests.swift in Sources */,
 			);
