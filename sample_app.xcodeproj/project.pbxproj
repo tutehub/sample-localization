@@ -24,6 +24,10 @@
 		D6E300032A41785C00CB61C3 /* Review.json in Resources */ = {isa = PBXBuildFile; fileRef = D6E300022A41785C00CB61C3 /* Review.json */; };
 		D6E300052A41787C00CB61C3 /* ReviewDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E300042A41787C00CB61C3 /* ReviewDTO.swift */; };
 		D6E300092A4180D500CB61C3 /* JiJingListQuestionsOneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E300082A4180D500CB61C3 /* JiJingListQuestionsOneModel.swift */; };
+		D6E3000D2A42B19000CB61C3 /* TmpOneDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3000C2A42B19000CB61C3 /* TmpOneDTO.swift */; };
+		D6E3000F2A42B3D400CB61C3 /* Tmp1.json in Resources */ = {isa = PBXBuildFile; fileRef = D6E3000E2A42B3D400CB61C3 /* Tmp1.json */; };
+		D6E300112A42B41C00CB61C3 /* Tmp2.json in Resources */ = {isa = PBXBuildFile; fileRef = D6E300102A42B41C00CB61C3 /* Tmp2.json */; };
+		D6E300132A42B49300CB61C3 /* TmpTwoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E300122A42B49300CB61C3 /* TmpTwoDTO.swift */; };
 		D6E3FFF02A41725200CB61C3 /* JiJingListQuestionsOneDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3FFEF2A41725200CB61C3 /* JiJingListQuestionsOneDTO.swift */; };
 		D6E3FFF32A41736A00CB61C3 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3FFF22A41736A00CB61C3 /* Meal.swift */; };
 		D6E3FFF82A41739C00CB61C3 /* MealTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3FFF72A41739C00CB61C3 /* MealTest.swift */; };
@@ -75,6 +79,10 @@
 		D6E300022A41785C00CB61C3 /* Review.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Review.json; sourceTree = "<group>"; };
 		D6E300042A41787C00CB61C3 /* ReviewDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDTO.swift; sourceTree = "<group>"; };
 		D6E300082A4180D500CB61C3 /* JiJingListQuestionsOneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiJingListQuestionsOneModel.swift; sourceTree = "<group>"; };
+		D6E3000C2A42B19000CB61C3 /* TmpOneDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmpOneDTO.swift; sourceTree = "<group>"; };
+		D6E3000E2A42B3D400CB61C3 /* Tmp1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tmp1.json; sourceTree = "<group>"; };
+		D6E300102A42B41C00CB61C3 /* Tmp2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tmp2.json; sourceTree = "<group>"; };
+		D6E300122A42B49300CB61C3 /* TmpTwoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmpTwoDTO.swift; sourceTree = "<group>"; };
 		D6E3FFEF2A41725200CB61C3 /* JiJingListQuestionsOneDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiJingListQuestionsOneDTO.swift; sourceTree = "<group>"; };
 		D6E3FFF22A41736A00CB61C3 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		D6E3FFF72A41739C00CB61C3 /* MealTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTest.swift; sourceTree = "<group>"; };
@@ -184,6 +192,8 @@
 		D6E3FFE92A41716900CB61C3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D6E300102A42B41C00CB61C3 /* Tmp2.json */,
+				D6E3000E2A42B3D400CB61C3 /* Tmp1.json */,
 				D6E300022A41785C00CB61C3 /* Review.json */,
 				D6E300002A41756800CB61C3 /* Launch.json */,
 				D6E3FFFA2A41750400CB61C3 /* JiJingListQuestionsOneData.json */,
@@ -198,6 +208,8 @@
 				D6E300082A4180D500CB61C3 /* JiJingListQuestionsOneModel.swift */,
 				D6E3FFFE2A41753C00CB61C3 /* LaunchDTO.swift */,
 				D6E300042A41787C00CB61C3 /* ReviewDTO.swift */,
+				D6E3000C2A42B19000CB61C3 /* TmpOneDTO.swift */,
+				D6E300122A42B49300CB61C3 /* TmpTwoDTO.swift */,
 			);
 			path = "Model ";
 			sourceTree = "<group>";
@@ -340,7 +352,9 @@
 				68C75F052A397FDD009FF572 /* zh-Hant.lproj in Resources */,
 				D6E300032A41785C00CB61C3 /* Review.json in Resources */,
 				D6E300012A41756800CB61C3 /* Launch.json in Resources */,
+				D6E300112A42B41C00CB61C3 /* Tmp2.json in Resources */,
 				685F3B662A35764500F0777D /* Assets.xcassets in Resources */,
+				D6E3000F2A42B3D400CB61C3 /* Tmp1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +386,8 @@
 				68C75EFE2A397A8F009FF572 /* LocalizationManager.swift in Sources */,
 				D6E3FFF32A41736A00CB61C3 /* Meal.swift in Sources */,
 				D6FCC4422A3B3B4400ACF298 /* NetworkCombineManager.swift in Sources */,
+				D6E3000D2A42B19000CB61C3 /* TmpOneDTO.swift in Sources */,
+				D6E300132A42B49300CB61C3 /* TmpTwoDTO.swift in Sources */,
 				D6E3FFFF2A41753C00CB61C3 /* LaunchDTO.swift in Sources */,
 				D6E3FFF02A41725200CB61C3 /* JiJingListQuestionsOneDTO.swift in Sources */,
 				D6FCC43E2A3B38A800ACF298 /* MainApp.swift in Sources */,

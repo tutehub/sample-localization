@@ -71,8 +71,67 @@ final class JSONDecodeTest: XCTestCase {
     }
 
     
-    
     func testJiJingDecoding() throws {
+        guard let url = Bundle.main.url(forResource: "JiJingListQuestionsOneData", withExtension: "json"),
+            let data = try? Data(contentsOf: url) else {
+                XCTFail("shark-JiJingListQuestionsOneData: get bundle failed")
+                return
+        }
         
+        let decoder = JSONDecoder()
+        guard let result = try? decoder.decode(JiJingListQuestionsOneDTO.self, from: data) else {
+            XCTFail("shark-JiJingListQuestionsOneData: decode failed")
+            return
+        }
+        
+        XCTAssertEqual(result.code, "810")
+        XCTAssertEqual(result.information, "Question is successfully fetched!")
+        XCTAssertEqual(result.object[0].slug, "ra-697")
+        XCTAssertEqual(result.object[0].title, "Supermassive Black Hole")
+        XCTAssertEqual(result.object[0].isCollected, true )
+        XCTAssertEqual(result.object[0].star, 1 )
+        XCTAssertEqual(result.object[0].hasCourse, false )
+
+
+    }
+    
+    func testTmp1Decoding() throws {
+        guard let url = Bundle.main.url(forResource: "Tmp1", withExtension: "json"),
+            let data = try? Data(contentsOf: url) else {
+                XCTFail("shark-TmpDTO: get bundle failed")
+                return
+        }
+        
+        let decoder = JSONDecoder()
+        guard let result = try? decoder.decode(TmpOneDTO.self, from: data) else {
+            XCTFail("shark-TmpDTO: decode failed")
+            return
+        }
+        
+        XCTAssertEqual(result.code, "810")
+        XCTAssertEqual(result.information, "Question is successfully fetched!")
+        XCTAssertEqual(result.object.content, "content")
+
+    }
+    
+    
+    func testTmp2Decoding() throws {
+        guard let url = Bundle.main.url(forResource: "Tmp2", withExtension: "json"),
+            let data = try? Data(contentsOf: url) else {
+                XCTFail("shark-TmpDTO: get bundle failed")
+                return
+        }
+        
+        let decoder = JSONDecoder()
+        guard let result = try? decoder.decode(TmpTwoDTO.self, from: data) else {
+            XCTFail("shark-TmpDTO: decode failed")
+            return
+        }
+        
+        XCTAssertEqual(result.code, "810")
+        XCTAssertEqual(result.information, "Question is successfully fetched!")
+        XCTAssertEqual(result.object[0].id, 1)
+        XCTAssertEqual(result.object[0].title, "Domestication")
+
     }
 }

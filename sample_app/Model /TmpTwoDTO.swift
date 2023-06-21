@@ -1,18 +1,17 @@
 //
-//  JiJingListQuestionsOneModel.swift
+//  TmpDTO.swift
 //  sample_app
 //
-//  Created by Work Mac on 20/6/2023.
+//  Created by Work Mac on 21/6/2023.
 //
 
 import Foundation
 
 
-struct JiJingListQuestionsOneDTO: Decodable{
+struct TmpTwoDTO: Decodable {
     let code: String
     let information: String
-    let object: [JiJingListQuestionsOneModel]
-    
+    let object: [TmpTwoObjectDTO]
     
     enum RootKeys: String, CodingKey {
         case code, information, object
@@ -23,44 +22,38 @@ struct JiJingListQuestionsOneDTO: Decodable{
     }
     
     enum ContentKeys: CodingKey {
-        case id, title, content, postDate, modifiedDate, author, status, questionId, level, testedDates, lessonPath, tags, qid, qtype
+        case id, title
     }
 }
 
 
-struct JiJingListQuestionsOneModel: Decodable {
-    var slug: String
-    var title: String
-    var isCollected: Bool
-    var star: Int
-    var hasCourse: Bool
+struct TmpTwoObjectDTO: Decodable {
+    let id: Int
+    let title: String
 }
 
-extension JiJingListQuestionsOneDTO {
+
+extension TmpTwoDTO {
     init(from decoder: Decoder) throws {
-        // 1 - code & information
+        // 1 - id (layer 1)
         let container = try decoder.container(keyedBy: RootKeys.self)
         code = try container.decode(String.self, forKey: .code)
         information = try container.decode(String.self, forKey: .information)
-                
         
         // 3 - object
         let objectContainer = try container.nestedContainer(keyedBy: ObjectKeys.self, forKey: .object)
         var contentUnkeyedContainer = try objectContainer.nestedUnkeyedContainer(forKey: .content)
-        var objectValues = [JiJingListQuestionsOneModel]()
+        var objectValues = [TmpTwoObjectDTO]()
 
         while !contentUnkeyedContainer.isAtEnd {
             let contentContainer = try contentUnkeyedContainer.nestedContainer(keyedBy: ContentKeys.self)
             let _id = try contentContainer.decode(Int.self, forKey: .id)
             let _title = try contentContainer.decode(String.self, forKey: .title)
-            let _questionId = try contentContainer.decode(String.self, forKey: .questionId)
-
-            objectValues.append(JiJingListQuestionsOneModel(slug: _questionId, title: _title, isCollected: true, star: 1, hasCourse: false))
+            objectValues.append(TmpTwoObjectDTO(id: _id, title: _title ))
         }
 
         
-        
-        self.object = objectValues
+        object = objectValues
 
     }
 }
