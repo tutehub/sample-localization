@@ -28,6 +28,12 @@
 		D6E3000F2A42B3D400CB61C3 /* Tmp1.json in Resources */ = {isa = PBXBuildFile; fileRef = D6E3000E2A42B3D400CB61C3 /* Tmp1.json */; };
 		D6E300112A42B41C00CB61C3 /* Tmp2.json in Resources */ = {isa = PBXBuildFile; fileRef = D6E300102A42B41C00CB61C3 /* Tmp2.json */; };
 		D6E300132A42B49300CB61C3 /* TmpTwoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E300122A42B49300CB61C3 /* TmpTwoDTO.swift */; };
+		D6E3002D2A4807EA00CB61C3 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3002C2A4807EA00CB61C3 /* Contact.swift */; };
+		D6E3002E2A4807EA00CB61C3 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3002C2A4807EA00CB61C3 /* Contact.swift */; };
+		D6E3002F2A4807EA00CB61C3 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3002C2A4807EA00CB61C3 /* Contact.swift */; };
+		D6E300312A48294A00CB61C3 /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E300302A48294A00CB61C3 /* UserAuthentication.swift */; };
+		D6E300322A48294A00CB61C3 /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E300302A48294A00CB61C3 /* UserAuthentication.swift */; };
+		D6E300332A48294A00CB61C3 /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E300302A48294A00CB61C3 /* UserAuthentication.swift */; };
 		D6E3FFF02A41725200CB61C3 /* JiJingListQuestionsOneDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3FFEF2A41725200CB61C3 /* JiJingListQuestionsOneDTO.swift */; };
 		D6E3FFF32A41736A00CB61C3 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3FFF22A41736A00CB61C3 /* Meal.swift */; };
 		D6E3FFF82A41739C00CB61C3 /* MealTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3FFF72A41739C00CB61C3 /* MealTest.swift */; };
@@ -83,6 +89,8 @@
 		D6E3000E2A42B3D400CB61C3 /* Tmp1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tmp1.json; sourceTree = "<group>"; };
 		D6E300102A42B41C00CB61C3 /* Tmp2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tmp2.json; sourceTree = "<group>"; };
 		D6E300122A42B49300CB61C3 /* TmpTwoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmpTwoDTO.swift; sourceTree = "<group>"; };
+		D6E3002C2A4807EA00CB61C3 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		D6E300302A48294A00CB61C3 /* UserAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthentication.swift; sourceTree = "<group>"; };
 		D6E3FFEF2A41725200CB61C3 /* JiJingListQuestionsOneDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiJingListQuestionsOneDTO.swift; sourceTree = "<group>"; };
 		D6E3FFF22A41736A00CB61C3 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		D6E3FFF72A41739C00CB61C3 /* MealTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTest.swift; sourceTree = "<group>"; };
@@ -146,6 +154,7 @@
 		685F3B602A35764300F0777D /* sample_app */ = {
 			isa = PBXGroup;
 			children = (
+				D6E3002C2A4807EA00CB61C3 /* Contact.swift */,
 				D6E3FFF12A41735E00CB61C3 /* Example-UnitTest */,
 				D6E3FFEE2A41721800CB61C3 /* Model  */,
 				D6E3FFE92A41716900CB61C3 /* Resources */,
@@ -158,6 +167,7 @@
 				D6664A8C2A4050590038993A /* NetworkDTO.swift */,
 				685F3B912A357DF000F0777D /* NetworkManager.swift */,
 				685F3B672A35764500F0777D /* Preview Content */,
+				D6E300302A48294A00CB61C3 /* UserAuthentication.swift */,
 			);
 			path = sample_app;
 			sourceTree = "<group>";
@@ -381,6 +391,7 @@
 			files = (
 				685F3B642A35764300F0777D /* ContentView.swift in Sources */,
 				D6E300052A41787C00CB61C3 /* ReviewDTO.swift in Sources */,
+				D6E300312A48294A00CB61C3 /* UserAuthentication.swift in Sources */,
 				685F3B922A357DF000F0777D /* NetworkManager.swift in Sources */,
 				D6FCC4402A3B38D800ACF298 /* ContentViewModel.swift in Sources */,
 				68C75EFE2A397A8F009FF572 /* LocalizationManager.swift in Sources */,
@@ -391,6 +402,7 @@
 				D6E3FFFF2A41753C00CB61C3 /* LaunchDTO.swift in Sources */,
 				D6E3FFF02A41725200CB61C3 /* JiJingListQuestionsOneDTO.swift in Sources */,
 				D6FCC43E2A3B38A800ACF298 /* MainApp.swift in Sources */,
+				D6E3002D2A4807EA00CB61C3 /* Contact.swift in Sources */,
 				D6664A8D2A4050590038993A /* NetworkDTO.swift in Sources */,
 				D6E300092A4180D500CB61C3 /* JiJingListQuestionsOneModel.swift in Sources */,
 			);
@@ -400,6 +412,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E300322A48294A00CB61C3 /* UserAuthentication.swift in Sources */,
+				D6E3002E2A4807EA00CB61C3 /* Contact.swift in Sources */,
 				D6E3FFFD2A41751900CB61C3 /* JSONDecodeTest.swift in Sources */,
 				D6E3FFF82A41739C00CB61C3 /* MealTest.swift in Sources */,
 				685F3B732A35764500F0777D /* sample_appTests.swift in Sources */,
@@ -410,7 +424,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E3002F2A4807EA00CB61C3 /* Contact.swift in Sources */,
 				685F3B7F2A35764500F0777D /* sample_appUITestsLaunchTests.swift in Sources */,
+				D6E300332A48294A00CB61C3 /* UserAuthentication.swift in Sources */,
 				685F3B7D2A35764500F0777D /* sample_appUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

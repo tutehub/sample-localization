@@ -86,6 +86,19 @@ class ContentViewModel: ObservableObject {
 //            }
 //          )
 //          .store(in: &cancellables)
+        
+        
+        
+        /// Example for ObservableObject
+        let john = Contact(name: "John Appleseed", age: 24)
+        _ = john.objectWillChange
+            .sink { _ in
+                print("\(john.age) will change")
+        }
+        print(john.haveBirthday())
+        // Prints "24 will change"
+        // Prints "25"
+
     }
     
 

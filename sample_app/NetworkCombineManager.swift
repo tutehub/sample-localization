@@ -34,7 +34,7 @@ class NetworkCombineManager {
                 print("Shark:", element.data)
                 return element.data
                 }
-//            .decode(type: ResponseDTO.self, decoder: JSONDecoder())
+            .decode(type: ResponseDTO.self, decoder: JSONDecoder())
 //            .eraseToAnyPublisher()
 //            .receive(on: DispatchQueue.main)
             .sink(receiveCompletion: { print ("Shark-url-completion: \($0).") },
